@@ -1,6 +1,3 @@
-// static coords for location on map
-var map;
-
 
 
 function getLocation() {
@@ -11,10 +8,10 @@ function getLocation() {
     }
 }
 
-
 function initMap(pos) {
-  map = new google.maps.Map(document.getElementById('map'), {
-    center: {lat: pos.coords.latitude, lng: pos.coords.longitude},
-    zoom: 15
-  });
+  let map;
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: pos.coords.latitude, lng: pos.coords.longitude},
+      zoom: 15
+    });
 }

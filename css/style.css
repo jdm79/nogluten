@@ -1,17 +1,16 @@
-#header {
-  height: 90px;
+#header, #footer {
+  padding: 5px 0px 5px 0px;
   text-align: center;
-  background-color: black;
+  background-color: pink;
   color: white
 }
 
-#navbar {
-  background-color: blue;
-  text-align: center;
+h1 {
+  font-family: "Lucida Sans Typewriter", "Lucida Console", monaco, "Bitstream Vera Sans Mono", monospace;
 }
 
 #map {
-  height: 80%;
+  height: 85%;
   width: 80%;
   margin: 0 auto;
 }
@@ -20,5 +19,5 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: black
+  background-color: white
 }

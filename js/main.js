@@ -14,4 +14,8 @@ function initMap(pos) {
       center: {lat: pos.coords.latitude, lng: pos.coords.longitude},
       zoom: 15
     });
+  let marker = new google.maps.Marker({
+      position: {lat: pos.coords.latitude, lng: pos.coords.longitude},
+      map: map
+  });
 }
